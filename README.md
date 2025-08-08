@@ -1,6 +1,26 @@
 # _brand.yml_RShiny
 Repository to house examples and a framework to test _brand.yml integration into R Shiny Apps
 
+## Repository Structure
+   ```{r}
+├── _brand.yml                          # file that controls branding elements and theming
+├── _brand.yml_RShiny.Rproj
+├── .gitignore
+├── .RData
+├── .Rhistory
+├── LICENSE
+├── multi_file_app
+│   └── global.R       
+│   └── server.R       
+│   └── ui.R       
+├── README.md
+├── single_file_app                       
+│   └── app.R
+├── www  
+│   ├── logos
+|      └── NOAA_FISHERIES_logoH.png
+   ```
+
  ## Resources:
 
 -   [Slides from presentation at Posit Shiny Conference
